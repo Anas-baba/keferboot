@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* ============logo section============*/
+
+
+.logo-img{
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+}
+
+.logo-hr {
+    width: 60%;
+    margin: auto;
+    opacity: 1;
+}
+
+
+@media (max-width: 991px) {    /* md breakpoint */
+    .logo-hr {
+        width: 50% !important;
+    }
+
+    .navv{
+        
+    }
+}
+
+@media (min-width: 992px) {    /* lg breakpoint */
+    .logo-hr {
+        width: 75%;
+    }
+}
+
+@media (max-width: 530px) {    /* md breakpoint */
+    .logo-hr {
+        width: 60% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*=======================logo right section---========*/
+
+.num{
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+/*===========================================*/
+
+@media (max-width: 575px){
+    .top-right{
+        margin-top: 100px;
+    }
+}
+
+/*================ 425px  font size===========*/
+
+@media (max-width: 425px) {
+
+    .call{
+        font-size: 22px;
+    }
+
+    .num{
+        font-size: 28px;
+    }
+    .get{
+        font-size: 15px; 
+    }
+
+}
+
+.bgColor{
+    background-color: #8c191b;
+}
+
+.navbar-nav li a{
+    color: #fff;
+}
+
+.fa-bars{
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+/*===============form section ===============*/
+
+.img-div{
+
+}
+
+.img1{
+    width: 100%;
+}
+
+.bgIMG2{
+    background-image: url("images/form_bg.jpg");
+    position: center;
+    background-size: cover;
+}
+.question{
+    background-color: #8c191b;
+    color: #fff;
+height: 50px;   
+
+}
+
+.colr{
+    color: rgb(15, 53, 89);
+
+}
+
+.number{
+    color: black;
+    font-weight: bold;
+}
+
+/* =============para=======*/
+
+.para{
+    width: 85%;
+    
+}
+
+
+/* =============text area=======*/
+
+textarea{
+    width: 100%;
+    resize: none !important;
+
+}
+
+.textArea{
+
+}
+
+/*==========form last ========*/
+.ask{
+    background-color: #8c191b;
+    width: 250px;
+}
+.b{
+    border: 2px solid green;
+}
+
+
+.bullett{
+   
+    width: 14px;
+    height: 12px;
+}
+
+
+/*========== 3div 1st div ========*/
+
+.bgColor{
+    background-color: #8c191b !important;
+    border: none;
+    outline: none;
+    border-radius: 0px !important;
+    color: #fff !important;
+}
+
+.hrr{
+    height: 2px;
+    background-color: black;
+    opacity: 1;
+    width: 60%;
+}
