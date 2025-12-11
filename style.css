@@ -7,6 +7,15 @@ body{
     font-family: sans-serif;
 }
 
+
+body, html {
+    overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+}
+
+
 /* ============logo section============*/
 
 
@@ -201,7 +210,34 @@ textarea{
     width: 60%;
 }
 
+.hrhr{
 
+     height: 2px;
+    background-color: black;
+    opacity: 1;
+    width: 60%;
+    margin: auto !important;
+    
+}
+
+.hrhr1{
+      height: 2px;
+    background-color: black;
+    opacity: 1;
+    width: 80% !important;
+    
+
+}
+
+.bgColor{
+    margin-left: 20px;
+}
+
+
+.leftRightB{
+    border-left: 1.5px solid silver;
+    border-right:1.5px solid silver ;
+}
 
 
 
@@ -261,7 +297,15 @@ textarea{
 
 
 
+.boderb{
+    border-bottom: 2px solid silver;
+}
 
+.hrb{
+    opacity: 1;
+    background-color: black;
+    height: 2px;
+}
 
 /*------------------------------------ media query---------------------------------------*/
 

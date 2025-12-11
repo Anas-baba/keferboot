@@ -125,4 +125,33 @@
 }
 
 
+@media (max-width:768px){
+    .flexS{
+        text-align: start !important;
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width:576px){
+    .flexM{
+        flex-direction: column !important;
+        text-align: center;
+    }
+    .secondD{
+        margin-top: 28px !important;
+    }
+
+    .flexT{
+        text-align: center !important;
+    }
+
+}
+
+
 
